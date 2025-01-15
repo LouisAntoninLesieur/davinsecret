@@ -4,6 +4,9 @@
   "description": "An npm package to easy generate a JWT Secret into a .env file (if exists) or create .env and fill it with JWT Secret.",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "davin": "./index.js"
+  },
   "scripts": {
     "test": "jest"
   },
