@@ -18,11 +18,8 @@
 ## 🌟 Features
 
 - **Quickly generate a JWT Secret**: Generate a JWT Secret in the .env file at the root of your project *(<span style="color:rgb(84, 48, 92)">**Davinsecret**</span> creates a .env file for you at the root of your project if it does not exist)*.
-
 - **Customizable secret size**: Choose the number of bytes you want for your secret.
-
 - **Documentation**: Access the documentation of the package directly in your console.
-
 - **Easy to use**: Use the package with npx or npm.
 
 ## 📦 Installation
