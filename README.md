@@ -27,9 +27,7 @@
 
 ## 📦 Installation
 
-We recommend to use this package with npx (see [Usage](#usage)).
-
-Otherwise, you can install it globally with npm.
+We recommend to install <span style="color:rgb(84, 48, 92)">**Davinsecret**</span> globally, or to use it with npx (see [Usage](#usage)).
 
 ```bash
 npm install -g davinsecret
@@ -40,9 +38,7 @@ npm install -g davinsecret
 ### 🌐 With npx:
 
 ```bash
-npx davin secret <bytes>
-# or, shorter
-npx davins s <bytes>
+npx davinsecret s <bytes>
 ```
 
 ### 💾 With npm:
