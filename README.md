@@ -40,10 +40,20 @@ npx davinsecret s <bytes>
 
 ### 💾 With npm:
 
+Note : you will need to write a dedicated script in your `package.json` to use the `davin` command.
+
+```json
+  "scripts": {
+    "davin": "davinsecret"
+  }
+```
+
+Then, you can use the following command :
+
 ```bash
-davin secret <bytes>
+npm run davin secret <bytes>
 # or, shorter
-davin s <bytes>
+npm run davin s <bytes>
 ```
 
 **bytes**: The number of bytes you want to generate for your secret.
