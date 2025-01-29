@@ -1,6 +1,7 @@
 import { Command } from "commander";
 import { insertSecret } from "../lib/insertSecret.js";
 import { davinDoc } from "../utils/messages/davinDoc.js";
+import { installDotEnv } from "../lib/installDotEnv.js";
 
 const program = new Command("davinsecret");
 
@@ -21,5 +22,14 @@ export function davinsecret() {
       davinDoc();
     });
     
+  program
+    .command('dotenv')
+    .alias('dot')
+    .description('Check dotenv dependency')
+    .action(() => {
+      installDotEnv();
+    })
+
+
   program.parse(process.argv);
 }
