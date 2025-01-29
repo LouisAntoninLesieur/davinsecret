@@ -1,7 +1,7 @@
 {
   "name": "davinsecret",
-  "version": "1.0.4",
-  "description": "An npm package to easy generate a JWT Secret into a .env file (if exists) or create .env and fill it with JWT Secret.",
+  "version": "1.1.1",
+  "description": "An npm package to easy generate a JWT Secret into a .env file (if exists) or create .env and fill it with JWT Secret. No display. No leak.",
   "main": "index.js",
   "type": "module",
   "bin": {
